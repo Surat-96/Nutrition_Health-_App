@@ -65,4 +65,10 @@ if submit:
     st.subheader("The Response is")
     st.write(response)
 
+footer = """
+---
+#### Made By [Surat Banerjee](https://www.linkedin.com/in/surat-banerjee/)
+For Any Queries, Reach out on [Portfolio](https://suratbanerjee.wixsite.com/myportfoliods)  
+"""
 
+st.markdown(footer, unsafe_allow_html=True)
